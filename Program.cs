@@ -34,7 +34,7 @@ namespace UltimaParcela
 
             // O comando AddMonths irá controlar os meses da parcela.
 
-            Console.WriteLine($"Sua última parcela deverá ser paga somente em {Ultimo.ToShortDateString()}, no valor total de R${ValorASerPago}.");
+            Console.WriteLine($"Sua última parcela deverá ser paga somente em {Ultimo.ToShortDateString()}, no valor de {ValorMensalDaParcela:C2}.");
 
         }
     }
